@@ -15,8 +15,7 @@ Module Program
         Next
         Console.WriteLine()
         Select Case nDividers
-            Case 0
-            Case 1
+            Case 0, 1
                 Console.WriteLine($"The number {ulNumber} is neither composite nor prime")
             Case 2
                 Console.WriteLine($"The number {ulNumber} is prime")
